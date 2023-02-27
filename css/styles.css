@@ -48,18 +48,23 @@ nav {
 
 
 
-.about-me {
-    color:white
+.aboutme {
+    text-align: center;
+    color:white;
+    font-size: 50px;
+    margin: -10px;
 }
 
-
+.name {
+    text-align: center;
+    font-size: 50px;
+}
 
 div {
     font-size: 25px;
     text-align: center;
     max-width: 80%;
     inline-size: 500px;
-
     padding: 1px;
     margin-left: auto;
     margin-right: auto;
@@ -67,6 +72,8 @@ div {
 
 .project {
     text-align: center;
+    font-size: 50px;
+    margin: -10px;
 }
 
 
@@ -101,6 +108,7 @@ h2 {
 }
 
 #logos {
+    padding: 30px;
     border-radius: 0px;
 }
 
@@ -131,3 +139,32 @@ a:hover {
 a:active {
     text-decoration: none;
 }
+
+.box {
+    border: 1px solid #ccc;
+
+    display: block;
+    width: 100%;
+    height: 300px;
+    color: black;
+    background: linear-gradient(white, white 50%, #333 50%, #333);
+    background-size: 100% 202%;
+    transition: all 0.2s ease;
+    animation: down-bump 0.4s ease;
+}
+
+.box:hover {
+    background-position: 100% 100%;
+    animation: up-bump 0.4s ease;
+}
+
+@keyframes up-bump {
+        0% { padding-top: 2em; }
+        50% { padding-top: 1.5em; }
+        100% { padding-top: 2em; }
+      }
+@keyframes down-bump {
+        0% { padding-top: 2em; }
+        50% { padding-top: 2.5em; }
+        100% { padding-top: 2em; }
+      }
