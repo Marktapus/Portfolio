@@ -28,9 +28,7 @@ nav {
     font-size: 30px;
 }
 
-.project {
-    margin-right: 100px;
-}
+
 
 .content {
     display: flex;
@@ -40,6 +38,10 @@ nav {
     width: 400px;
     text-align: center;
     max-width: 80%;
+}
+
+.item {
+    display: in;
 }
 
 .about-me {
@@ -91,7 +93,7 @@ img{
 
 a {
     color: whitesmoke;
-    padding: 60px;
+    padding: 50px;
 }
 
 a:link {
