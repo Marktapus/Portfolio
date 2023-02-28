@@ -120,9 +120,21 @@ img{
     height:auto;
 }
 
+.flex-container {
+    display: flex;
+}
+
+.flex-container div {
+    background: peachpuff;
+    border: 4px solid brown;
+    height: 100px;
+    flex: 1;
+}
+
+/* Links and attributes */
 a {
     color: whitesmoke;
-    padding: 50px;
+    margin: 50px;
 }
 
 a:link {
@@ -141,6 +153,7 @@ a:active {
     text-decoration: none;
 }
 
+/* Project boxes with animated pop up*/
 .box {
     color: #ccc;
     padding-top: 10%;
@@ -155,12 +168,13 @@ a:active {
     background-size: 100% 200%;
     transition: all 0.2s ease;
     animation: down-bump 0.2s ease;
+    
 }
 
+/* Hover over project for a pop up */
 .box:hover {
     background-position: 100% 100%;
     animation: up-bump 0.2s ease;
-    
 }
 
 
