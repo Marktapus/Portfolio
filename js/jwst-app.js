@@ -10,8 +10,8 @@
 //Count down timer until Webb goes inoperable
 
 function newFact() {
-let randomNum = Math.floor(Math.random() * (facts.length));
-document.getElementById("factDisplay").innerHTML = facts[randomNum];
+    let randomNum = Math.floor(Math.random() * (facts.length));
+    document.getElementById("factDisplay").innerHTML = facts[randomNum];
 }
 
 
@@ -26,5 +26,8 @@ let facts = [
     "Unlike NASA\’s Spitzer, which transitioned to a “warm” mission when it ran out of coolant, James Webb should maintain its cold temperatures for its entire lifespan.",
     "When it runs out of fuel, its fate will be to permanently reside in a “graveyard orbit” around the Sun.",
     "Although it wasn\’t designed to be serviced and upgraded, it could potentially be robotically refueled to extend its life.",
-
+    "L2 is an ideal location for an infrared observatory. At Sun-Earth L2, the Sun and Earth (and Moon, too) are always on one side of space, allowing Webb to keep its telescope optics and instruments perpetually shaded.",
+    "The longer the wavelength of light that you want to probe, the cooler you need to get your instruments, which is the primary reason for most of the design decisions that went into the James Webb Space Telescope.",
+    "The warmer the James Webb Space Telescope gets, the narrower its wavelength range it can probe will become.",
+    "When James Webb Space Telescope is out of fuel, science operations end. However, we can’t just leave it out there to drift wherever it may go, as it would potentially endanger future missions destined for L2. Instead, just as we did for prior spacecraft sent to L2, like NASA\’s WMAP satellite, we\’ll send it to a graveyard orbit, where it will orbit the Sun for as long as there\’s a Sun to orbit."
 ]
