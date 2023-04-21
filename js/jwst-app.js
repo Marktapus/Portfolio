@@ -9,6 +9,8 @@
 
 //Count down timer until Webb goes inoperable
 
+//https://webb.nasa.gov/content/webbLaunch/news.html
+
 function newFact() {
     let randomNum = Math.floor(Math.random() * (facts.length));
     document.getElementById("factDisplay").innerHTML = facts[randomNum];
