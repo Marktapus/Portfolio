@@ -69,6 +69,8 @@ div {
     margin-right: auto;
 }
 
+
+
 .project {
     text-align: center;
     font-size: 50px;
@@ -176,5 +178,7 @@ a:active {
     background-position: 100% 100%;
     animation: up-bump 0.2s ease;
 }
+
+
 
 

@@ -16,8 +16,6 @@ function newFact() {
     document.getElementById("factDisplay").innerHTML = facts[randomNum];
 }
 
-
-
 let facts = [
     "It is 1000 times more powerful than the Hubble telescope and can see details on a U.S. penny at a distance of 24 miles away. It sees it all outside the visible spectrum — it sees infrared light.",
     "The James Webb Space Telescope is actually lighter than its predecessor, the Hubble Space Telescope.",
